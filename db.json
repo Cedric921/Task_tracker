@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointement",
+      "day": "Feb 5th at 2:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "coding",
+      "day": "Feb 5th at 2:30 pm",
+      "reminder": false
+    },
+    {
+      "text": "cooking foods",
+      "day": "tomorrow",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Go to school",
+      "day": "everyday",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "My task",
+      "day": "everytime",
+      "reminder": false,
+      "id": 8
+    },
+    {
+      "text": "new task",
+      "day": "next moday",
+      "reminder": true,
+      "id": 9
+    }
+  ]
+}
