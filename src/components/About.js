@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
         <h4>Version 1.0.0</h4>
     <p>
         This app is buid by <strong>Cedric KARUNGU</strong> <br/>
-        <a href='/'>Home</a>
+        <Link to='/'>Home</Link>
     </p>
     </div>
   )
