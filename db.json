@@ -31,10 +31,10 @@
       "id": 8
     },
     {
-      "text": "new task",
-      "day": "next moday",
+      "text": "ceda task",
+      "day": "maintenant",
       "reminder": true,
-      "id": 9
+      "id": 10
     }
   ]
 }

@@ -31,7 +31,7 @@ function App() {
   const fetchTask = async (id) => {
   const res = await fetch(`http://localhost:5000/tasks/${id}`);
     const data = await res.json();
-    console.log(data);
+    console.log('fetch ', data);
     return data;
   }
 
@@ -46,7 +46,7 @@ function App() {
     });
 
     const data = await res.json();
-    console.log(data);
+    console.log('Add task', data);
     setTasks([...tasks, data]);
 
 
