@@ -78,14 +78,15 @@ function App() {
       body: JSON.stringify(updateTask)
     });
     const data = await res.json();
-    console.log('update ', data);
-
+    
+    
     setTasks(
       tasks.map((task) => 
         task.id === id ? { ...task, reminder : 
         !data.reminder} : task
       )
-    )
+    );
+    console.log('update ', data);
   };
 
   const Home = () => {

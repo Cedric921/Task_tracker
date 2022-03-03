@@ -19,6 +19,7 @@ body {
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
+  background: radial-gradient(black, transparent);
   padding: 30px;
   border-radius: 5px;
 }
@@ -58,14 +59,15 @@ body {
 }
 
 .event {
-  background: #f4f4f4;
+  background-color: #dfdbdb;
   margin: 5px;
   padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .event.reminder {
-  border-left: 5px solid green;
+  background-color: rgb(76, 125, 131);
 }
 
 .event h3 {
